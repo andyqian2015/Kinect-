@@ -1,0 +1,25 @@
+﻿Build started 2016/3/15 17:12:11.
+     1>Project "F:\visual studio 2013\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /IF:\opencv\build\include /IF:\VSTest\HandTrace\HandTrace /Zi /nologo /W1 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"F:\visual studio 2013\CoordinateMappingBasics-D2D\\Win32\Release\CoordinateMappingBasics-D2D\\" /Fd"F:\visual studio 2013\CoordinateMappingBasics-D2D\\Win32\Release\CoordinateMappingBasics-D2D\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CoordinateMappingBasics.cpp DepthBasics.cpp ImageRenderer.cpp main.cpp
+         CoordinateMappingBasics.cpp
+         DepthBasics.cpp
+         ImageRenderer.cpp
+         main.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"F:\visual studio 2013\CoordinateMappingBasics-D2D\\Win32\Release\CoordinateMappingBasics-D2D\DepthBasics.res" DepthBasics.rc 
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\visual studio 2013\CoordinateMappingBasics-D2D\\Win32\Release\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:F:\opencv\build\x86\vc12\lib /LIBPATH:F:\VSTest\HandTrace\Release\HandTrace /LIBPATH:"E:\OpenSceneGraph-3.2.1\VS64\lib" kinect20.lib windowscodecs.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_core248.lib opencv_highgui248.lib opencv_imgproc248.lib HandTrace.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\OpenSceneGraph-3.2.1\VS64\lib\osgd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgAnimationd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgWidgetd.lib" opengl32.lib "E:\OpenSceneGraph-3.2.1\VS64\lib\osgViewerd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgGAd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgTextd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgDBd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgUtild.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\OpenThreadsd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\visual studio 2013\CoordinateMappingBasics-D2D\\Win32\Release\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\visual studio 2013\CoordinateMappingBasics-D2D\\Win32\Release\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.lib" /MACHINE:X86 /SAFESEH "F:\visual studio 2013\CoordinateMappingBasics-D2D\\Win32\Release\CoordinateMappingBasics-D2D\DepthBasics.res"
+         "F:\visual studio 2013\CoordinateMappingBasics-D2D\\Win32\Release\CoordinateMappingBasics-D2D\CoordinateMappingBasics.obj"
+         "F:\visual studio 2013\CoordinateMappingBasics-D2D\\Win32\Release\CoordinateMappingBasics-D2D\DepthBasics.obj"
+         "F:\visual studio 2013\CoordinateMappingBasics-D2D\\Win32\Release\CoordinateMappingBasics-D2D\ImageRenderer.obj"
+         "F:\visual studio 2013\CoordinateMappingBasics-D2D\\Win32\Release\CoordinateMappingBasics-D2D\main.obj"
+     1>HandTrace.lib(CHandTrace.obj) : error LNK2001: unresolved external symbol "public: virtual class std::vector<struct sAction,class std::allocator<struct sAction> > __thiscall CHandTrace::getHandGesture(void)" (?getHandGesture@CHandTrace@@UAE?AV?$vector@UsAction@@V?$allocator@UsAction@@@std@@@std@@XZ)
+     1>F:\visual studio 2013\CoordinateMappingBasics-D2D\\Win32\Release\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "F:\visual studio 2013\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.23

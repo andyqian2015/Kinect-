@@ -1,0 +1,143 @@
+﻿Build started 2016/3/7 11:22:02.
+     1>Project "F:\VSTest\HandTrace\HandTrace\HandTrace.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /IF:\VSTest\HandTrace\\HandTrace /IF:\opencv\build\include /IF:\VSTest\HandTrace\ /IE:\DLPDESIGNER\sdk\boost /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"F:\VSTest\HandTrace\Debug\HandTrace\\" /Fd"F:\VSTest\HandTrace\Debug\HandTrace\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CHandTrace.cpp
+         CHandTrace.cpp
+     1>f:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(72): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(76): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(81): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(85): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(89): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(93): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(97): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(101): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(119): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(185): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(186): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(194): warning C4244: 'initializing' : conversion from 'const float' to 'UINT', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(199): warning C4244: 'initializing' : conversion from 'const float' to 'UINT', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(218): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(251): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(281): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(284): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(290): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(314): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(351): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(357): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 f:\vstest\handtrace\handtrace\chandtrace.cpp(351) : definition of 'i' ignored
+                 f:\vstest\handtrace\handtrace\chandtrace.cpp(241) : definition of 'i' used
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(363): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(397): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(398): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(407): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(413): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(417): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(453): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 f:\vstest\handtrace\handtrace\chandtrace.cpp(413) : definition of 'i' ignored
+                 f:\vstest\handtrace\handtrace\chandtrace.cpp(241) : definition of 'i' used
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(518): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(519): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(530): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(603): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(630): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(631): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(635): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(657): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(671): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(674): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(695): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(696): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(705): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(706): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(710): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(747): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(755): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(756): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(784): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(798): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(843): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(894): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(905): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(933): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1052): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1053): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1242): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1248): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1262): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1263): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1290): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1312): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1323): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1345): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1383): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1440): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1460): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1467): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1468): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1538): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1545): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1559): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1572): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1585): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1600): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1610): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1621): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1632): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1646): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1667): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1675): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1675): warning C4244: '=' : conversion from 'float' to 'USHORT', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1714): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1725): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1732): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1738): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1744): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1772): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1902): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1931): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1934): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1937): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2101): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2102): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2129): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2131): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2138): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2157): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2125): warning C4101: 'fVertMinDist' : unreferenced local variable
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2125): warning C4101: 'fHorMinDist' : unreferenced local variable
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2117): warning C4101: 'evertdir' : unreferenced local variable
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2117): warning C4101: 'ehordir' : unreferenced local variable
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2236): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2241): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2255): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2263): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2284): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2318): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2319): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2345): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2355): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2379): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2440): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2441): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2442): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2461): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2474): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(2490): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1191): warning C4715: 'CHandTrace::getProjectPos' : not all control paths return a value
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1177): warning C4715: 'CHandTrace::getProjectPos' : not all control paths return a value
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(959): warning C4715: 'CHandTrace::SeekHands' : not all control paths return a value
+     1>f:\vstest\handtrace\handtrace\chandtrace.cpp(1780): warning C4715: 'CHandTrace::elimateBadDepth' : not all control paths return a value
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(F:\VSTest\HandTrace\Debug\HandTrace\HandTrace.lib) does not match the Library's OutputFile property value (F:\VSTest\HandTrace\Debug\HandTrace\HandTraced.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(HandTrace) does not match the Library's OutputFile property value (HandTraced). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         D:\vs2013\VC\bin\Lib.exe /OUT:"F:\VSTest\HandTrace\Debug\HandTrace\HandTraced.lib" /NOLOGO F:\VSTest\HandTrace\Debug\HandTrace\CHandTrace.obj
+         HandTrace.vcxproj -> F:\VSTest\HandTrace\Debug\HandTrace\HandTrace.lib
+     1>Done Building Project "F:\VSTest\HandTrace\HandTrace\HandTrace.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.36

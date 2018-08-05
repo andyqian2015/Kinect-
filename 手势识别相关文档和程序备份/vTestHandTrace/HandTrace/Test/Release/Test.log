@@ -1,0 +1,15 @@
+﻿Build started 2016/3/7 17:35:47.
+     1>Project "F:\VSTest\HandTrace\Test\Test.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(Test) does not match the Linker's OutputFile property value ( Test). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenSceneGraph-3.2.1\VS64\bin\ Test.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\OpenSceneGraph-3.2.1\VS64\lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\OpenSceneGraph-3.2.1\VS64\lib\osgd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgAnimationd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgWidgetd.lib" opengl32.lib "E:\OpenSceneGraph-3.2.1\VS64\lib\osgViewerd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgGAd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgTextd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgDBd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgUtild.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\OpenThreadsd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\OpenSceneGraph-3.2.1\VS64\bin\ Test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OpenSceneGraph-3.2.1\VS64\bin\ Test.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+     1>MSVCRT.lib(crtexe.obj) : error LNK2001: unresolved external symbol _main
+     1>E:\OpenSceneGraph-3.2.1\VS64\bin\ Test.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "F:\VSTest\HandTrace\Test\Test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.73

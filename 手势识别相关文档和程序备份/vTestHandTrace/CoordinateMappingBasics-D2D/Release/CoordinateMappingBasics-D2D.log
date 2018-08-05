@@ -1,0 +1,20 @@
+﻿Build started 2016/3/3 17:51:29.
+     1>Project "F:\visual studio 2013\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(CoordinateMappingBasics-D2D) does not match the Linker's OutputFile property value ( CoordinateMappingBasics-D2D). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenSceneGraph-3.2.1\VS64\bin\ CoordinateMappingBasics-D2D.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:F:\opencv\build\x86\vc12\lib /LIBPATH:"E:\OpenSceneGraph-3.2.1\VS64\lib" kinect20.lib windowscodecs.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_core248.lib opencv_highgui248.lib opencv_imgproc248.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\OpenSceneGraph-3.2.1\VS64\lib\osgd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgAnimationd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgWidgetd.lib" opengl32.lib "E:\OpenSceneGraph-3.2.1\VS64\lib\osgViewerd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgGAd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgTextd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgDBd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgUtild.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\OpenThreadsd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\OpenSceneGraph-3.2.1\VS64\bin\ CoordinateMappingBasics-D2D.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OpenSceneGraph-3.2.1\VS64\bin\ CoordinateMappingBasics-D2D.lib" /MACHINE:X86 /SAFESEH Release\DepthBasics.res
+         Release\CoordinateMappingBasics.obj
+         Release\DepthBasics.obj
+         Release\ImageRenderer.obj
+         Release\main.obj
+         Generating code
+     1>f:\visual studio 2013\coordinatemappingbasics-d2d\depthbasics.cpp(2024): warning C4715: 'CDepthBasics::getProjectPos' : not all control paths return a value
+     1>f:\visual studio 2013\coordinatemappingbasics-d2d\depthbasics.cpp(2696): warning C4715: 'CDepthBasics::elimateBadDepth' : not all control paths return a value
+     1>f:\visual studio 2013\coordinatemappingbasics-d2d\depthbasics.cpp(1679): warning C4715: 'CDepthBasics::SeekHands' : not all control paths return a value
+         Finished generating code
+         CoordinateMappingBasics-D2D.vcxproj -> E:\OpenSceneGraph-3.2.1\VS64\bin\ CoordinateMappingBasics-D2D.exe
+     1>Done Building Project "F:\visual studio 2013\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.74

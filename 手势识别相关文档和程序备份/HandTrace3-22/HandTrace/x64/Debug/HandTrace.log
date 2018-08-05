@@ -1,0 +1,73 @@
+﻿Build started 2016/4/14 15:30:38.
+     1>Project "F:\手势识别相关文档和程序备份\HandTrace3-22\HandTrace\HandTrace.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /I"F:\手势识别相关文档和程序备份\HandTrace3-22\\HandTrace" /IF:\opencv\build\include /I"F:\手势识别相关文档和程序备份\HandTrace3-22\\" /I"E:\OpenSceneGraph-3.2.1\VS64\include" /I"E:\OpenSceneGraph-3.2.1\include" /I"F:\visual studio 2010\Projects\Test" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt CHandTrace.cpp
+         CHandTrace.cpp
+     1>f:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2013\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>CHandTrace.cpp(70): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>CHandTrace.cpp(74): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>CHandTrace.cpp(79): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>CHandTrace.cpp(83): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>CHandTrace.cpp(87): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>CHandTrace.cpp(91): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>CHandTrace.cpp(95): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>CHandTrace.cpp(99): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>CHandTrace.cpp(209): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>CHandTrace.cpp(222): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>CHandTrace.cpp(229): warning C4244: 'initializing' : conversion from 'const float' to 'UINT', possible loss of data
+     1>CHandTrace.cpp(234): warning C4244: 'initializing' : conversion from 'const float' to 'UINT', possible loss of data
+     1>CHandTrace.cpp(286): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>CHandTrace.cpp(419): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CHandTrace.cpp(420): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CHandTrace.cpp(488): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>CHandTrace.cpp(579): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>CHandTrace.cpp(618): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>CHandTrace.cpp(948): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CHandTrace.cpp(949): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>CHandTrace.cpp(1124): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>CHandTrace.cpp(1138): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>CHandTrace.cpp(1139): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>CHandTrace.cpp(1166): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>CHandTrace.cpp(1259): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(1316): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(1336): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(1414): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>CHandTrace.cpp(1421): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(1435): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(1448): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(1461): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(1476): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(1486): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(1497): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(1508): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(1551): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>CHandTrace.cpp(1551): warning C4244: '=' : conversion from 'float' to 'USHORT', possible loss of data
+     1>CHandTrace.cpp(1608): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>CHandTrace.cpp(1620): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>CHandTrace.cpp(1810): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>CHandTrace.cpp(1974): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>CHandTrace.cpp(2008): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(2015): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(2021): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(2028): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(2269): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>CHandTrace.cpp(2274): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>CHandTrace.cpp(2332): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>CHandTrace.cpp(2422): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>f:\手势识别相关文档和程序备份\handtrace3-22\handtrace\chandtrace.cpp(1053): warning C4715: 'CHandTrace::getProjectPos' : not all control paths return a value
+     1>f:\手势识别相关文档和程序备份\handtrace3-22\handtrace\chandtrace.cpp(1067): warning C4715: 'CHandTrace::getProjectPos' : not all control paths return a value
+     1>f:\手势识别相关文档和程序备份\handtrace3-22\handtrace\chandtrace.cpp(884): warning C4715: 'CHandTrace::SeekHands' : not all control paths return a value
+     1>f:\手势识别相关文档和程序备份\handtrace3-22\handtrace\chandtrace.cpp(1656): warning C4715: 'CHandTrace::elimateBadDepth' : not all control paths return a value
+     1>f:\手势识别相关文档和程序备份\handtrace3-22\handtrace\chandtrace.cpp(2230): warning C4715: 'CHandTrace::GetSummitPoint' : not all control paths return a value
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(F:\手势识别相关文档和程序备份\HandTrace3-22\\x64\Debug\HandTrace.lib) does not match the Library's OutputFile property value (F:\手势识别相关文档和程序备份\HandTrace3-22\x64\Debug\HandTraced.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(HandTrace) does not match the Library's OutputFile property value (HandTraced). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         D:\vs2013\VC\bin\x86_amd64\Lib.exe /OUT:"F:\手势识别相关文档和程序备份\HandTrace3-22\\x64\Debug\HandTraced.lib" /NOLOGO /MACHINE:X64 x64\Debug\CHandTrace.obj
+         HandTrace.vcxproj -> F:\手势识别相关文档和程序备份\HandTrace3-22\\x64\Debug\HandTrace.lib
+     1>Done Building Project "F:\手势识别相关文档和程序备份\HandTrace3-22\HandTrace\HandTrace.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.07

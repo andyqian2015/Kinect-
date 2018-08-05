@@ -1,0 +1,35 @@
+﻿Build started 2016/3/7 8:44:52.
+     1>Project "F:\手势识别相关文档和程序备份\2016-3-5-10-30\CoordinateMappingBasics-D2D.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /IF:\opencv\build\include /Zi /nologo /W1 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"F:\手势识别相关文档和程序备份\2016-3-5-10-30\\Win32\Release\CoordinateMappingBasics-D2D\\" /Fd"F:\手势识别相关文档和程序备份\2016-3-5-10-30\\Win32\Release\CoordinateMappingBasics-D2D\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CoordinateMappingBasics.cpp DepthBasics.cpp ImageRenderer.cpp main.cpp
+         CoordinateMappingBasics.cpp
+         DepthBasics.cpp
+     1>DepthBasics.cpp(1135): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 DepthBasics.cpp(1129) : definition of 'i' ignored
+                 DepthBasics.cpp(1019) : definition of 'i' used
+     1>DepthBasics.cpp(1231): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 DepthBasics.cpp(1191) : definition of 'i' ignored
+                 DepthBasics.cpp(1019) : definition of 'i' used
+         ImageRenderer.cpp
+         main.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"F:\手势识别相关文档和程序备份\2016-3-5-10-30\\Win32\Release\CoordinateMappingBasics-D2D\DepthBasics.res" DepthBasics.rc 
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\手势识别相关文档和程序备份\2016-3-5-10-30\\Win32\Release\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:F:\opencv\build\x86\vc12\lib /LIBPATH:"E:\OpenSceneGraph-3.2.1\VS64\lib" kinect20.lib windowscodecs.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_core248.lib opencv_highgui248.lib opencv_imgproc248.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\OpenSceneGraph-3.2.1\VS64\lib\osgd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgAnimationd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgWidgetd.lib" opengl32.lib "E:\OpenSceneGraph-3.2.1\VS64\lib\osgViewerd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgGAd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgTextd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgDBd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgUtild.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\OpenThreadsd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\手势识别相关文档和程序备份\2016-3-5-10-30\\Win32\Release\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\手势识别相关文档和程序备份\2016-3-5-10-30\\Win32\Release\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.lib" /MACHINE:X86 /SAFESEH "F:\手势识别相关文档和程序备份\2016-3-5-10-30\\Win32\Release\CoordinateMappingBasics-D2D\DepthBasics.res"
+         "F:\手势识别相关文档和程序备份\2016-3-5-10-30\\Win32\Release\CoordinateMappingBasics-D2D\CoordinateMappingBasics.obj"
+         "F:\手势识别相关文档和程序备份\2016-3-5-10-30\\Win32\Release\CoordinateMappingBasics-D2D\DepthBasics.obj"
+         "F:\手势识别相关文档和程序备份\2016-3-5-10-30\\Win32\Release\CoordinateMappingBasics-D2D\ImageRenderer.obj"
+         "F:\手势识别相关文档和程序备份\2016-3-5-10-30\\Win32\Release\CoordinateMappingBasics-D2D\main.obj"
+         Generating code
+     1>f:\手势识别相关文档和程序备份\2016-3-5-10-30\depthbasics.cpp(2090): warning C4715: 'CDepthBasics::getProjectPos' : not all control paths return a value
+     1>f:\手势识别相关文档和程序备份\2016-3-5-10-30\depthbasics.cpp(2762): warning C4715: 'CDepthBasics::elimateBadDepth' : not all control paths return a value
+     1>f:\手势识别相关文档和程序备份\2016-3-5-10-30\depthbasics.cpp(1737): warning C4715: 'CDepthBasics::SeekHands' : not all control paths return a value
+         Finished generating code
+         CoordinateMappingBasics-D2D.vcxproj -> F:\手势识别相关文档和程序备份\2016-3-5-10-30\\Win32\Release\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.exe
+     1>Done Building Project "F:\手势识别相关文档和程序备份\2016-3-5-10-30\CoordinateMappingBasics-D2D.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.01

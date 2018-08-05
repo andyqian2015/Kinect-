@@ -1,0 +1,21 @@
+﻿Build started 2016/4/14 15:06:58.
+     1>Project "F:\手势识别相关文档和程序备份\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /IF:\opencv\build\include /IF:\VSTest\HandTrace\HandTrace /ZI /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CoordinateMappingBasics.cpp DepthBasics.cpp ImageRenderer.cpp main.cpp
+         main.cpp
+         ImageRenderer.cpp
+         DepthBasics.cpp
+     1>f:\手势识别相关文档和程序备份\coordinatemappingbasics-d2d\depthbasics.cpp(132): error C2664: 'void HandTrace::IHandTrace::InitData(std::vector<Imath::V3f,std::allocator<_Ty>> &,std::vector<_Ty,std::allocator<_Ty>> &,int,float,float,float)' : cannot convert argument 1 from 'const std::vector<Imath::V3f,std::allocator<_Ty>>' to 'std::vector<Imath::V3f,std::allocator<_Ty>> &'
+                 with
+                 [
+                     _Ty=Imath::V3f
+                 ]
+                 Conversion loses qualifiers
+         CoordinateMappingBasics.cpp
+         Generating Code...
+     1>Done Building Project "F:\手势识别相关文档和程序备份\CoordinateMappingBasics-D2D\CoordinateMappingBasics-D2D.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.82

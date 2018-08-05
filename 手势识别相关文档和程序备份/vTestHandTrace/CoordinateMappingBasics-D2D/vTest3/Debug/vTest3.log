@@ -1,0 +1,17 @@
+﻿Build started 2016/3/16 14:37:52.
+     1>Project "F:\手势识别相关文档和程序备份\vTestHandTrace\CoordinateMappingBasics-D2D\vTest3\vTest3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /I"F:\手势识别相关文档和程序备份\vTestHandTrace\CoordinateMappingBasics-D2D" /IE:\DLPDESIGNER\sdk\boost /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\手势识别相关文档和程序备份\vtesthandtrace\coordinatemappingbasics-d2d\vtest3\main.cpp(12): warning C4018: '<' : signed/unsigned mismatch
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\vTest3.res" vTest3.rc 
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\手势识别相关文档和程序备份\vTestHandTrace\CoordinateMappingBasics-D2D\Debug\vTest3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\手势识别相关文档和程序备份\vTestHandTrace\CoordinateMappingBasics-D2D\Debug" "CoordinateMappingBasics-D2D.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\OpenSceneGraph-3.2.1\VS64\lib\osgd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgAnimationd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgWidgetd.lib" opengl32.lib "E:\OpenSceneGraph-3.2.1\VS64\lib\osgViewerd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgGAd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgTextd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgDBd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgUtild.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\OpenThreadsd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\手势识别相关文档和程序备份\vTestHandTrace\CoordinateMappingBasics-D2D\Debug\vTest3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\手势识别相关文档和程序备份\vTestHandTrace\CoordinateMappingBasics-D2D\Debug\vTest3.lib" /MACHINE:X86 Debug\vTest3.res
+         Debug\main.obj
+         vTest3.vcxproj -> F:\手势识别相关文档和程序备份\vTestHandTrace\CoordinateMappingBasics-D2D\Debug\vTest3.exe
+     1>Done Building Project "F:\手势识别相关文档和程序备份\vTestHandTrace\CoordinateMappingBasics-D2D\vTest3\vTest3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.58

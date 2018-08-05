@@ -1,0 +1,18 @@
+﻿Build started 2016/3/15 10:08:37.
+     1>Project "F:\手势识别相关文档和程序备份\vTestHandTrace\vTest1\vTest1.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /I"F:\手势识别相关文档和程序备份\vTestHandTrace\CoordinateMappingBasics-D2D" /IE:\DLPDESIGNER\sdk\boost /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CGetHands.cpp main.cpp
+         main.cpp
+         CGetHands.cpp
+     1>f:\手势识别相关文档和程序备份\vtesthandtrace\vtest1\cgethands.cpp(25): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\手势识别相关文档和程序备份\vTestHandTrace\CoordinateMappingBasics-D2D\\Win32\Debug\vTest1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\手势识别相关文档和程序备份\vTestHandTrace\CoordinateMappingBasics-D2D\Win32\Debug" "CoordinateMappingBasics-D2D.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\OpenSceneGraph-3.2.1\VS64\lib\osgd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgAnimationd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgWidgetd.lib" opengl32.lib "E:\OpenSceneGraph-3.2.1\VS64\lib\osgViewerd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgGAd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgTextd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgDBd.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\osgUtild.lib" "E:\OpenSceneGraph-3.2.1\VS64\lib\OpenThreadsd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\手势识别相关文档和程序备份\vTestHandTrace\CoordinateMappingBasics-D2D\\Win32\Debug\vTest1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\手势识别相关文档和程序备份\vTestHandTrace\CoordinateMappingBasics-D2D\\Win32\Debug\vTest1.lib" /MACHINE:X86 Debug\CGetHands.obj
+         Debug\main.obj
+     1>LINK : fatal error LNK1104: cannot open file 'kernel32.lib'
+     1>Done Building Project "F:\手势识别相关文档和程序备份\vTestHandTrace\vTest1\vTest1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.93
